@@ -200,3 +200,6 @@ clean_url = url.strip()
 
 if "login" in clean_url:
     print(f"login page detected",clean_url)
+
+# returns gives values back
+# print only displays

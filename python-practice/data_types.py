@@ -188,3 +188,15 @@ def is_prime(num):
     return "Prime"
 print(is_prime(7))
     
+items.append(2)
+items.extend([88,90])
+print(items)
+
+print("log1,log2,log3".split(","))
+print(",".join(["a","b"]))
+
+url = " https://test.com/login  "
+clean_url = url.strip()
+
+if "login" in clean_url:
+    print(f"login page detected",clean_url)
